@@ -234,13 +234,12 @@ span {
 }
 
 
+/* joining section start */
 
 .joining-part {
     width: 100%;
+    height: 670px;
 }
-
-
-
 .joining-part-container {
     display: flex;
     flex-wrap: wrap;
@@ -287,4 +286,34 @@ li.joining-list-li {
 .join-text {
     color: black;
     margin-bottom: 40px;
+
 }
+/* joining section end */
+
+
+
+
+/* download section start */
+
+.download-section {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+}
+
+.download-section-img {
+    width: 200px;
+    height: 60px;
+}
+
+.download-section-text {
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+/* download section end */
